@@ -14,7 +14,7 @@ var Letter = function(letter) {
 
     this.printInfo = function() {
         if(this.letterGuessed) {
-            console.log(this.letter);
+            return this.letter;
         }
         else {
             return '_ ';
